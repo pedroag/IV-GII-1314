@@ -50,3 +50,10 @@ KVM acceleration can be used
 
 Por lo tanto, está contenido en el núcleo.
 
+Ejercicio 12
+------------
+
+Instalo el paquete virtualenv utilizado con python:
+
+apt-get install python-virtualenv
+
