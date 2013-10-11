@@ -22,7 +22,7 @@ Los pasos han sido los siguientes:
 
 Resultados:
 
-| Navegador | Protext
+  | Navegador | Protext
 --- | --- | ---
 cpuact.usage | 9176719008 | 1866035090
 cpuact.stat | user 706 system 170 | user 153 system 24
