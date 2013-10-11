@@ -27,3 +27,16 @@ Resultados:
 cpuact.usage | 9176719008 | 1866035090
 cpuact.stat | user 706 system 170 | user 153 system 24
 cpuacct.usage_percpu | 4157895961 5018823047  | 1055893816 813090137 
+
+Ejercicio 9
+-----------
+
+Ejecuto  egrep '^flags.*(vmx|svm)' /proc/cpuinfo y me aparece la siguiente lista: 
+
+flags	| fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt rdtscp lm 3dnowext 3dnow constant_tsc nonstop_tsc extd_apicid pni cx16 lahf_lm cmp_legacy svm extapic cr8_legacy 3dnowprefetch osvw skinit hw_pstate lbrv svm_lock nrip_save
+--- | ---
+
+Por lo tanto, si tengo instalada esta teconlogía.
+
+Mi modelo es:  AMD Turion(tm) X2 Dual-Core Mobile RM-70
+
