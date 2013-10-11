@@ -40,3 +40,13 @@ Por lo tanto, sí tengo instalada esta teconlogía.
 
 Mi modelo es:  AMD Turion(tm) X2 Dual-Core Mobile RM-70
 
+Ejercicio 10
+------------
+
+Para utilizar kvm-ok primero instalo el paquete "cpu-cheker". A continuación ejecuto el comando y me aparece:
+
+INFO: /dev/kvm exists
+KVM acceleration can be used
+
+Por lo tanto, está contenido en el núcleo.
+
