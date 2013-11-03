@@ -26,3 +26,20 @@ A continuacíon escribro los pasos para crear uno:
 Y esta es la salida de brctl show:
 
 ![captura1](https://dl.dropbox.com/s/okgr35czvi3ipv9/Captura%20de%20pantalla%20de%202013-11-04%2000%3A07%3A04.png)
+
+Ejercicio 3
+-----------
+
+a) Creo un sistema con la orden explicada en los apuntes de clase:
+
+    sudo debootstrap --arch=i386 quantal /home/jaulas/quantal/ http://archive.ubuntu.com/ubuntu
+
+En este caso utilizo infraestructura de 32 bits.
+
+b) Parecido al apartado anterior:
+
+    sudo rinse --arch=i386 --distribution fedora-core-6 --directory /home/jaulas/fedora
+    
+Ejercicio 4
+-----------
+
