@@ -43,3 +43,13 @@ b) Parecido al apartado anterior:
 Ejercicio 4
 -----------
 
+Como en el ejercicio anterior:
+
+    sudo debootstrap --arch=i386 wheezy /home/jaulas/debian http://ftp.debian.org/debian/
+
+y como ejemplo instalo python
+
+    apt-get install python
+    
+![captura2](https://dl.dropbox.com/s/dyxu8lgnhufjl7h/Captura%20de%20pantalla%20de%202013-11-04%2013%3A04%3A43.png)
+    
