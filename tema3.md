@@ -37,7 +37,7 @@ Lo ejecuto con:
     
 Ya dentro me logueo como root:
 
-![captura3](https://www.dropbox.com/s/ermtxzv1mwg6w3y/cont-debian-ejecuta.png)
+![captura3](https://dl.dropbox.com/s/ermtxzv1mwg6w3y/cont-debian-ejecuta.png)
 
 b)
 
