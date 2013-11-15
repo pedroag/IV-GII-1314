@@ -51,6 +51,21 @@ Pero me da un error y me pide que instale yum y curl. Lo instalo:
     
 El error se resuelve, pero me salen errores nuevos y no consigo instalarlo
 
+Ejercicio 4
+-----------
+
+a)
+
+Primero tengo que ser super usuario:
+
+    sudo su
+
+Y a continuación instalo lxc Web Panel:
+
+    wget http://lxc-webpanel.github.io/tools/install.sh -O - | bash
+    
+
+    
 
 
 
