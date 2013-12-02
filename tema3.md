@@ -65,7 +65,16 @@ Y a continuación instalo lxc Web Panel:
     wget http://lxc-webpanel.github.io/tools/install.sh -O - | bash
     
 
-    
+Me logueo como admin:
+
+![captura4](https://dl.dropbox.com/s/z03he22imjylvlh/webpanel.png)
+
+b) Limito el uso de memoria
+
+![captura5](https://dl.dropbox.com/s/lo3kau5m150gid4/restringirMemoria.png)
+
+Ejercicio 5
+-----------
 
 
 
