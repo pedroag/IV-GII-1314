@@ -29,3 +29,23 @@ Si se puede:
         }
         puts arrays.inspect
         
+
+Ejercicio 4
+-----------
+
+Muestro la fecha de modificación de la URL:
+
+        #!/usr/bin/ruby
+
+        require 'net/http'
+
+        url = ARGV[0]
+        puts "URL: " << url << "\n"
+
+        datos = Net::HTTP.get_response  url, '/'
+
+        puts "Fecha de modificacion: #{datos['date'].to_s}\n"
+        
+
+Ejercico 5
+----------
