@@ -49,3 +49,11 @@ Muestro la fecha de modificación de la URL:
 
 Ejercico 5
 ----------
+
+Para buscarla, utilizo:
+
+        gem search -r Vagrant
+        
+Compruebo que está, y la instalo:
+
+        sudo gem install vagrant
