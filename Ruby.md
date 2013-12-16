@@ -47,8 +47,8 @@ Muestro la fecha de modificación de la URL:
         puts "Fecha de modificacion: #{datos['date'].to_s}\n"
         
 
-Ejercico 5
-----------
+Ejercicio 5
+-----------
 
 Para buscarla, utilizo:
 
