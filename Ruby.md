@@ -18,3 +18,14 @@ Utilizo un simple for para recorrer los 10 primero números:
     
 Ejercicio 3
 -----------
+Si se puede:
+
+        #!/usr/bin/ruby
+
+        arrays = { 
+                :lugares => ['Paris','New York','Tokyo','Barcelona'],
+                :Equipos => ['Real Madrid','Barcelona','Atletico de Madrid','Real Jaen'],
+                :Jugadores => ['Raul','Zidane','Pedro Alcala']
+        }
+        puts arrays.inspect
+        
