@@ -60,5 +60,33 @@ Ejercicio 5
 
 ### Crear una máquina virtual ubuntu e instalar en ella un servidor nginx para poder acceder mediante web.
 
+Creo la máquina y el usuario:
 
+    azure vm create mvpedro b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-13_10-amd64-server-20131215-en-us-30GB mvpedro 12345aA*= --location "West Europe" --ssh
+
+Inicializo la máquina:
+
+    azure vm start mvpedro
+
+Y accedemos a ella con ssh:
+
+    ssh pedroag@mvpedro.cloudapp.net
+    
+Es el momento de instlar nginx:
+
+    sudo apt-get install nginx
+    
+A continuación abrimos los puertos del servicio HTTP en la máquina.
+
+    azure vm endpoint create mvpedro 80 80
+
+Y finalmente inicializamos el servicio:
+
+    sudo service nginx start
+
+Ejercicio 7
+===========
+
+
+    
     
